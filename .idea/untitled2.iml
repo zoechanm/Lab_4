@@ -1,2 +1,210 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<module classpath="CMake" type="CPP_MODULE" version="4" />
+#include <iostream>
+ #include <iomanip>
+using namespace std;
+int main() {
+ // problem 1
+ // int num;
+ // cout << " Enter a number: ";
+ // cin >> num;
+ // if (num < 0)
+ //     cout << "Negative number!" << endl;
+ // else
+ //     cout << "Positive number!" << endl;
+
+
+ // problem 2
+ // int num;
+ // cout << " Enter a number: ";
+ // cin >> num;
+ // if (num%2)
+ // cout << "odd number" << endl;
+ // else
+ //     cout << "even number" << endl;
+
+
+ // problem 3
+ // int a, b;
+ // cout << " Please enter a: ";
+ // cin >> a;
+ // cout << "Please enter b: ";
+ // cin >> b;
+ // if (a > b) {
+ //     cout << "largest number is " << a << endl;
+ //     }
+ // else
+ //     cout << "the largest number is " << b << endl;
+
+
+ // problem 4
+ // int a, b, c;
+ // cout << " Please enter a: ";
+ // cin >> a;
+ // cout << "Please enter b: ";
+ // cin >> b;
+ // cout << "Please enter c: ";
+ // cin >> c;
+ // if (a >=b&c) {
+ //     cout << "largest number is " << a << endl;
+ //     }
+ // else if (b >=a&c)
+ //     cout << "largest number is " << b << endl;
+ //
+ // else
+ //     cout << "the largest number is " << c << endl;
+
+
+ // problem 5
+ // int year;
+ // cout<< " Enter Year: ";
+ // cin>>year;
+ // if(year % 4 == 0 && year % 100 != 0 || year % 400 == 0)
+ //     cout<<"Year is a leap year";
+ // else
+ //     cout<<"Year is not a leap year";
+
+ // problem 6
+ // int speed;
+ // cout << " Please enter your speed: ";
+ // cin >> speed;
+ // if (speed < 20)
+ //     cout << "too slow";
+ // else if (speed > 80)
+ //     cout << "too fast";
+ // else
+ //     cout << "just right";
+
+ // problem 7
+ // int mark;
+ // cout << " enter your mark: ";
+ // cin >> mark;
+ // if (mark>50)
+ //     cout << "pass";
+ // else
+ //     cout << "fail";
+
+ // problem 8
+ // int n;
+ // cout << " Enter a number: ";
+ // cin >> n;
+ // if (n>0)
+ //     cout << "positive ";
+ // else if (n<0)
+ //     cout << "negative ";
+ // else
+ //     cout << "zero ";
+
+ // problem 9
+ // char g;
+ // cout << " Please enter a character: ";
+ // cin>>g;
+ // if (g=='g')
+ //     cout << "Go!";
+ // else if (g=='y')
+ //     cout << "Get ready!";
+ // else if (g=='r')
+ //     cout << "Stop!";
+
+ // problem 10
+ // int n;
+ // cout << "Enter a number:  ";
+ // cin >> n;
+ // if (n>=0 && n<=59)
+ //     cout<<"F";
+ // else if (n>=60 && n<=69)
+ //     cout<<"D";
+ // else if (n>=70 && n<=79)
+ //     cout<<"C";
+ // else if (n>=80 && n<=89)
+ //     cout<<"B";
+ // else if (n>=90 && n<=100)
+ //     cout<<"A";
+
+ // problem 11
+ // int a, b;
+ // cout << "Please enter first integer: ";
+ // cin >> a;
+ // cout << "Please enter second integer: ";
+ // cin >> b;
+ // if (a%b == 0) {
+ //     cout << a <<" is divisible by " << b << endl;
+ // }
+ // else {
+ //     cout << a << " is not divisible by " << b << endl;
+ // }
+
+ // problem 12
+ // int a, b,c,d;
+ // cout << " Please enter first angle: ";
+ // cin >> a;
+ // cout << "Please enter second angle: ";
+ // cin >> b;
+ // cout << "Please enter third angle: ";
+ // cin >> c;
+ // d=a+b+c;
+ // if (d==180)
+ //     cout << "the triangle is valid";
+ // else
+ //     cout << "the triangle is invalid";
+
+ // problem 13
+ // char ch;
+ // cout << "Enter a character: ";
+ // cin >> ch;
+ // if (ch >= 'a' && ch <= 'z')
+ //    cout << "This is a lowercase letter.";
+ // else if (ch >= 'A' && ch <= 'Z')
+ //    cout << "This is an uppercase letter.";
+ // else
+ //     cout << "This is not an alphabet letter.";
+
+ // problem 14
+ // float w1, p1, w2, p2, a, b;
+ // cout << "Enter weight and price for package 1: ";
+ // cin >> w1 >> p1;
+ // cout << "Enter weight and price for package 2: ";
+ // cin >> w2 >> p2;
+ // a=w1*p1;
+ // b=w2*p2;
+ // if (a<b)
+ // cout << "Package 1 has a better price";
+ // else if (a>b)
+ // cout << "Package 2 has a better price";
+ // else
+ // cout << "Two packages have the same price";
+
+ // problem 15
+ // int num, first, last;
+ // cout << "Enter a three-digit integer: ";
+ // cin >> num;
+ // first = num / 100;
+ // last = num % 10;
+ // if (first == last)
+ //   cout << num << " is a palindrome number.";
+ // else
+ //     cout << num << " is not a palindrome number.";
+
+ // problem 16
+ // int x,y, d;
+ // cout << "enter x and y: ";
+ // cin >> x >> y;
+ // d=sqrt(x*x+y*y);
+ // if (d<=10)
+ //  cout << "point ("<<x<<","<<y<<") is in circle";
+ // else
+ //  cout << "point ("<<x<<","<<y<<") is not in circle";
+
+ //problem 17
+ float gpa;
+ cout << "Enter GPA: ";
+ cin >> gpa;
+ if (gpa<3.0)
+  cout << "You got no scholarship";
+ else if (gpa>=3.0 && gpa<3.5)
+  cout << "You got 50% scholarship";
+ else if (gpa>=3.5 && gpa<4.0)
+  cout << "You got 60% scholarship";
+ else if (gpa>=4.0 && gpa<4.5)
+  cout << "You got 80% scholarship";
+
+return 0;
+}
